@@ -4,9 +4,10 @@ st.set_page_config(page_title="Mehraj.AI",page_icon=':brain:',layout="wide")
 def main():
     with st.container():
         # This part represents the Title
-        st.title("Mehrajur Rahman Mirdha 👨‍💻")
+        #st.title("Mehrajur Rahman Mirdha 👨‍💻")
 
         #Designation
+        st.markdown("# Mehrajur Rahman Mirdha",unsafe_allow_html=True)
         st.subheader("Data Scientist 🤖 | Data Analyst 📊 ")
         st.markdown("""------------------------------------------""")
         st.write("#")
